@@ -6,15 +6,6 @@ export default class App extends React.Component {
     return (
       <SafeAreaView style={styles.container}>
         <Text style={styles.h1}>Hello CodeSandbox</Text>
-        <Text style={styles.h2}>
-          Start editing to see some magic happen, even on your mobile device!
-        </Text>
-        <br />
-        <br />
-        <Text style={styles.paragraph}>
-          Open Expo on your mobile device with scanning the QR code in the
-          application log under the start tab.
-        </Text>
       </SafeAreaView>
     );
   }
